@@ -72,7 +72,7 @@ def getQuests():
 
 #run flask
 def flask_thread():
-	app.run()
+	app.run(host='0.0.0.0')
 	
 
 def main():
